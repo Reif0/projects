@@ -1,0 +1,43 @@
+@media(max-width:950px){
+    main .question{
+        font-size: 10px;
+        gap: 10px;
+    }
+}
+@media (max-width:850px) {
+    nav .links{
+        display: none;
+    }
+    nav .register{
+        display: none;
+    }
+    nav #img{
+        display: block;
+    }
+    main .cards{
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+@media (max-width:420px){
+    main .cards{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    main .cards .items{
+        display: flex;
+    }
+    main .sale-cards .card{
+        width: 90%;
+        margin: auto;
+    }
+    main .question{
+        display: none;
+    }
+}
+@media (max-width:380px){
+    header .head{
+        height: 5vh;
+        padding-bottom: 40px;
+    }
+}
